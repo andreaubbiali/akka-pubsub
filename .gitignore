@@ -1,0 +1,14 @@
+/target/
+/log/
+/mangrovia_iot_ssl/
+/lorawan/
+/.settings/
+/pa*/
+*.project
+*classpath
+.idea
+*.iml
+device-service-paho*
+.vscode/
+.metals/
+.bloop/
