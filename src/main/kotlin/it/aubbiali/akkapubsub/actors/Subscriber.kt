@@ -4,8 +4,6 @@ import akka.actor.AbstractActor
 import akka.actor.ActorRef
 import akka.cluster.pubsub.DistributedPubSub
 import akka.cluster.pubsub.DistributedPubSubMediator
-import java.lang.Exception
-import kotlin.jvm.Throws
 
 class Subscriber(subscriptionList: List<String>):AbstractActor() {
 
